@@ -58,11 +58,12 @@ public class ExcelUtils {
             List<String> dataList = dateMap.values().stream().filter(ObjectUtils::isNotEmpty).collect(Collectors.toList());
             stringBuilder.append(StringUtils.join(dataList,",")).append("\n");
         }
-        stringBuilder.toString();
-        return "";
+        return  stringBuilder.toString();
+
     }
 
     public static void main(String[] args) {
+
         excelToCsv(null);
     }
 }

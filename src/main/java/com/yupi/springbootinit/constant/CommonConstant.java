@@ -3,8 +3,8 @@ package com.yupi.springbootinit.constant;
 /**
  * 通用常量
  *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
+ * @author heart
+ * @from heart000_1
  */
 public interface CommonConstant {
 
@@ -17,5 +17,10 @@ public interface CommonConstant {
      * 降序
      */
     String SORT_ORDER_DESC = " descend";
+
+    /**
+     * BI模型id
+     */
+    long BI_MODEL_ID = 1691061855658749954L;
     
 }
